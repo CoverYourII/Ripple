@@ -6,19 +6,19 @@
   <display-name>Ripple</display-name>
   
   <servlet>
-	<servlet-name>jersey-serlvet</servlet-name>
+	<servlet-name>Ripple</servlet-name>
 		<servlet-class>
             com.sun.jersey.spi.container.servlet.ServletContainer
         </servlet-class>
 		<init-param>
 		     <param-name>com.sun.jersey.config.property.packages</param-name>
-		     <param-value>Ripple</param-value>
+		     <param-value>com.socialclub</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>jersey-serlvet</servlet-name>
+		<servlet-name>Ripple</servlet-name>
 		<url-pattern>/api/*</url-pattern>
 	</servlet-mapping>
 </web-app>
